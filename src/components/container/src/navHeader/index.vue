@@ -18,7 +18,6 @@ let toggle = () => {
   emits('update:collapse', !props.collapse)
 }
 </script>
-
 <style lang='scss' scoped>
 .header {
   height: 60px;

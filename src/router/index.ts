@@ -9,6 +9,11 @@ const routes:RouteRecordRaw [] =[
             {
                 path:'/',
                 component:Home
+            },
+            {
+                path:'/chooseIcon',
+                //懒加载
+                component:()=>import('../views/chooseIcon/index.vue')
             }
         ]
     }

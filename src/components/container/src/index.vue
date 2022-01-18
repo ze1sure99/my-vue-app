@@ -1,7 +1,8 @@
 <template>
+  <!--父组件-->
   <el-container>
     <el-aside width="auto">
-      <nav-side :collapse="isCollapse"></nav-side>
+      <nav-side  :collapse="isCollapse"></nav-side>
     </el-aside>
     <el-container>
       <el-header>
@@ -16,8 +17,8 @@
 
 <script lang='ts' setup>
 import { ref } from 'vue'
-import NavHeader from './navHeader/index.vue'
-import NavSide from './navSide/index.vue'
+ import NavHeader from './navHeader/index.vue'
+ import NavSide from './navSide/index.vue'
 let isCollapse = ref(false)
 </script>
 
